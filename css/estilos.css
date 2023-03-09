@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header" "main" "footer";
+}
+
+body {
+  background-color: rgb(238, 194, 241);
+  color: black;
+}
+
+header {
+  grid-area: header;
+  height: 80%;
+}
+header nav .container-fluid a {
+  font-family: "Titillium Web", sans-serif;
+}
+header nav .container-fluid img {
+  height: 35px;
+  width: 35px;
+}
+
+main {
+  grid-area: main;
+  height: 80%;
+  padding-top: 30px;
+}
+main .subtitulo {
+  display: flex;
+  justify-content: center;
+}
+main .subtitulo h1 {
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+}
+main .fotoportada {
+  display: flex;
+  justify-content: center;
+}
+main .fotoportada img {
+  height: 100px;
+  width: 300px;
+}
+main .presentacion-texto {
+  margin-top: 20px;
+}
+main .presentacion-texto p {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+main .container img {
+  height: 100px;
+  width: 100px;
+}
+main .container p {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+.video iframe {
+  width: 300px;
+  height: 200px;
+}
+
+footer {
+  grid-area: footer;
+  height: 80%;
+  padding-top: 30px;
+}
+footer div {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Titillium Web", sans-serif;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li img {
+  height: 30px;
+  width: 30px;
+}
+
+main .textomaps {
+  justify-content: center;
+}
+main .textomaps .texto {
+  font-family: "Libre Franklin", sans-serif;
+}
+main .textomaps .maps {
+  display: flex;
+  justify-content: center;
+}
+main .textomaps .maps iframe {
+  height: 150px;
+  width: 300px;
+}
+main .infonumeros p {
+  font-family: "Libre Franklin", sans-serif;
+}
+main .formula {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+main .formula .form {
+  display: flex;
+  flex-direction: column;
+  background: #c1f380;
+  background: -webkit-linear-gradient(to right, #ec77e6, #f37a2a);
+  background: linear-gradient(to right, #ec77e6, #f37a2a);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 350px;
+}
+main .formula .form .title {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: rgb(17, 16, 16);
+}
+main .formula .form .description {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: rgb(247, 246, 245);
+}
+main .formula .form div {
+  display: flex;
+  max-width: 28rem;
+  margin-top: 1rem;
+  column-gap: 0.5rem;
+}
+main .formula .form div input {
+  outline: none;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  color: rgb(238, 237, 241);
+  padding: 0.5rem 0.875rem;
+  background-color: rgba(220, 230, 218, 0.05);
+  border: 1px solid rgba(253, 253, 253, 0.363);
+  border-radius: 0.375rem;
+  flex: 1 1 auto;
+}
+main .formula .form div input::placeholder {
+  color: rgb(8, 8, 8);
+}
+main .formula .form div input:focus {
+  border: 1px solid rgb(253, 246, 246);
+}
+main .formula .form div button {
+  color: rgb(12, 11, 11);
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.625rem 0.875rem;
+  background-color: rgb(232, 232, 240);
+  border-radius: 0.375rem;
+  border: none;
+  outline: none;
+}
+main .redescontact {
+  height: 80%;
+  padding-top: 30px;
+}
+main .redescontact div {
+  display: flex;
+  justify-content: space-around;
+}
+main .redescontact div p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+main .redescontact ul {
+  display: flex;
+  justify-content: space-around;
+}
+main .redescontact ul li {
+  list-style: none;
+}
+main .redescontact ul img {
+  height: 30px;
+  width: 30px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
