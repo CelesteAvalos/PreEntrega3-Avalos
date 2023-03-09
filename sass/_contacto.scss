@@ -15,10 +15,13 @@ main{
         }
     }
     .infonumeros{
+        div{
+            display: flex;
+            justify-content: center;
+        }
         p{
-            font-family: 'Libre Franklin', sans-serif;  
-            
-            
+            font-family: 'Libre Franklin', sans-serif; 
+            justify-content: center; 
         }
     }
     .formula{
