@@ -56,8 +56,8 @@ main .presentacion-texto p {
   font-family: "Roboto Condensed", sans-serif;
 }
 main .container img {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 main .container p {
   font-family: "Titillium Web", sans-serif;
@@ -94,6 +94,79 @@ footer ul li img {
   width: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  header nav .container-fluid .navbar-brand {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 35px;
+  }
+  header nav .container-fluid .navbar-brand img {
+    height: 60px;
+    width: 60px;
+  }
+  header nav .container-fluid .collapse.navbar-collapse {
+    justify-content: center;
+    font-size: 30px;
+  }
+  main .subtitulo {
+    height: 20vh;
+  }
+  main .subtitulo h1 {
+    font-size: 45px;
+    justify-content: center;
+  }
+  main .fotoportada {
+    display: flex;
+    justify-content: center;
+  }
+  main .fotoportada img {
+    height: 300px;
+    width: 900px;
+  }
+  main .presentacion-texto {
+    margin-top: 20px;
+  }
+  main .presentacion-texto p {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+  }
+  main .container div img {
+    height: 250px;
+    width: 350px;
+  }
+  main .container div .p-3 {
+    justify-content: center;
+  }
+  main .container div .p-3 p {
+    font-size: 30px;
+  }
+  main .video {
+    display: flex;
+    justify-content: center;
+  }
+  main .video iframe {
+    width: 700px;
+    height: 400px;
+  }
+  footer div {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 30px;
+  }
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer ul li {
+    list-style: none;
+  }
+  footer ul li img {
+    height: 55px;
+    width: 55px;
+  }
+}
 main .textomaps {
   justify-content: center;
 }
@@ -200,6 +273,99 @@ main .redescontact ul li {
 main .redescontact ul img {
   height: 30px;
   width: 30px;
+}
+
+footer .derechos p {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  main .textomaps {
+    justify-content: space-around;
+  }
+  main .textomaps .texto {
+    display: flex;
+    justify-content: center;
+  }
+  main .textomaps .texto p {
+    font-size: 30px;
+  }
+  main .textomaps .maps {
+    display: flex;
+    justify-content: center;
+  }
+  main .textomaps .maps iframe {
+    height: 300px;
+    width: 650px;
+  }
+  main .infonumeros {
+    padding-top: 25px;
+  }
+  main .infonumeros div {
+    display: flex;
+  }
+  main .infonumeros p {
+    font-family: "Libre Franklin", sans-serif;
+    justify-content: center;
+    font-size: 25px;
+  }
+  main .formula {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  main .formula .form {
+    max-width: 550px;
+  }
+  main .redescontact nav ul img {
+    height: 55px;
+    width: 55px;
+  }
+}
+main .fotoprincipal {
+  display: flex;
+  justify-content: center;
+}
+main .fotoprincipal img {
+  height: 120px;
+  width: 300px;
+}
+main .container img {
+  height: 170px;
+  width: 190px;
+  padding-top: 30px;
+}
+main .container p {
+  font-family: "Titillium Web", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  main .fotoprincipal img {
+    height: 300px;
+    width: 900px;
+  }
+  main .container {
+    padding-top: 30px;
+  }
+  main .container .row img {
+    height: 400px;
+    width: 400px;
+  }
+  main .container .row p {
+    font-size: 27px;
+  }
+}
+main .text_info p {
+  font-family: "Titillium Web", sans-serif;
+}
+main .container img {
+  height: 200px;
+  width: 200px;
+}
+
+main .container_tienda img {
+  height: 120px;
+  width: 120px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,43 @@
+main{
+    .fotoprincipal{
+            display: flex;
+            justify-content: center;
+            img{
+                height: 120px;
+                width: 300px;
+            }
+    }
+    .container{
+        img{
+            height: 170px;
+            width: 190px;
+            padding-top: 30px;
+        }
+        p{
+            font-family: 'Titillium Web', sans-serif;
+        }
+    }
+
+}
+@media screen and (min-width:768px){
+    main{
+        .fotoprincipal{
+            img{
+                height: 300px;
+                width: 900px;
+            }
+        }
+        .container{
+            padding-top: 30px;
+            .row{
+                img{
+                    height: 400px;
+                    width: 400px;
+                }
+                p{
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+}
