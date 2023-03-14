@@ -7,3 +7,14 @@ main{
     }
         
 }
+@media screen and (min-width:768px){
+    main{
+        .container_tienda{
+            p{
+                font-family: 'Titillium Web', sans-serif;
+                font-size: 27px;
+
+            }
+            }
+    }
+}

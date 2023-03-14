@@ -132,8 +132,8 @@ footer ul li img {
     font-size: 30px;
   }
   main .container div img {
-    height: 250px;
-    width: 350px;
+    height: 280px;
+    width: 330px;
   }
   main .container div .p-3 {
     justify-content: center;
@@ -344,14 +344,14 @@ main .container p {
     height: 300px;
     width: 900px;
   }
-  main .container {
+  main .container_nos .container {
     padding-top: 30px;
   }
-  main .container .row img {
+  main .container_nos .container .row img {
     height: 400px;
-    width: 400px;
+    width: 370px;
   }
-  main .container .row p {
+  main .container_nos .container .row p {
     font-size: 27px;
   }
 }
@@ -363,9 +363,25 @@ main .container img {
   width: 200px;
 }
 
+@media screen and (min-width: 768px) {
+  main .text_info {
+    justify-content: center;
+  }
+  main .text_info p {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 27px;
+  }
+}
 main .container_tienda img {
   height: 120px;
   width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  main .container_tienda p {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 27px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

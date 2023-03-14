@@ -27,17 +27,20 @@ main{
                 width: 900px;
             }
         }
-        .container{
-            padding-top: 30px;
-            .row{
-                img{
-                    height: 400px;
-                    width: 400px;
+        .container_nos{
+
+            .container{
+                padding-top: 30px;
+                .row{
+                    img{
+                        height: 400px;
+                        width: 370px;
+                    }
+                    p{
+                        font-size: 27px;
+                    }
                 }
-                p{
-                    font-size: 27px;
-                }
-            }
+            }   
         }
     }
 }

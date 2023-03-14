@@ -2,6 +2,7 @@ main{
     .text_info{
         p{
             font-family: 'Titillium Web', sans-serif;
+
         }
         }
     
@@ -10,5 +11,17 @@ main{
             height: 200px;
             width: 200px;
         }
+    }
+}
+@media screen and (min-width:768px){
+    main{
+        .text_info{
+            justify-content: center;
+            p{
+                font-family: 'Titillium Web', sans-serif;
+                font-size: 27px;
+
+            }
+            }
     }
 }
