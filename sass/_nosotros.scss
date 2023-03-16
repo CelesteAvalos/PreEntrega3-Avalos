@@ -23,24 +23,35 @@ main{
     main{
         .fotoprincipal{
             img{
-                height: 300px;
-                width: 900px;
+                height: 628px;
+                width: 1200px;
             }
         }
         .container_nos{
 
             .container{
                 padding-top: 30px;
-                .row{
-                    img{
-                        height: 400px;
-                        width: 370px;
-                    }
-                    p{
-                        font-size: 27px;
+                    .row{
+                        align-items: center;
+                        .col-sm-6{
+                            justify-content: center;
+
+                            .img1{
+                                height: 670px;
+                                width: 400px;
+                            }
+                            .img2{
+                                height: 349px;
+                                width: 520px;
+                            }
+                            
+                                p{
+                                    font-size: 23px;
+                                }
+                            
+                        }
                     }
                 }
             }   
         }
     }
-}

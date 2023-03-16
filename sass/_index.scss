@@ -164,11 +164,13 @@ footer{
         }
         .container{
             div{
+                align-items: center;
                 img{
                     height: 280px;
                     width: 330px;
                 }
                 .p-3{
+                    
                     justify-content: center;
                     p{
                         font-size: 30px;                        
