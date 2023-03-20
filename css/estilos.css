@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: rgb(238, 194, 241);
+  background-image: linear-gradient(to right, rgb(240, 212, 238), rgb(231, 68, 231));
   color: black;
 }
 
@@ -50,10 +50,15 @@ main .fotoportada img {
 main .presentacion-texto {
   margin-top: 20px;
 }
-main .presentacion-texto p {
+main .presentacion-texto div {
+  justify-content: center;
+  margin: 20px;
+}
+main .presentacion-texto div p {
   display: flex;
   justify-content: center;
   font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
 }
 main .container img {
   height: 200px;
@@ -61,6 +66,7 @@ main .container img {
 }
 main .container p {
   font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
 }
 
 .video {
@@ -125,7 +131,7 @@ footer ul li img {
   main .presentacion-texto {
     margin-top: 20px;
   }
-  main .presentacion-texto p {
+  main .presentacion-texto div p {
     display: flex;
     justify-content: center;
     font-family: "Roboto Condensed", sans-serif;
@@ -174,6 +180,8 @@ main .textomaps {
   justify-content: center;
 }
 main .textomaps .texto {
+  justify-content: center;
+  margin: 20px;
   font-family: "Libre Franklin", sans-serif;
 }
 main .textomaps .maps {
@@ -201,8 +209,8 @@ main .formula .form {
   display: flex;
   flex-direction: column;
   background: #c1f380;
-  background: -webkit-linear-gradient(to right, #ec77e6, #f37a2a);
-  background: linear-gradient(to right, #ec77e6, #f37a2a);
+  background: -webkit-linear-gradient(to right, #db23d2, #f37a2a);
+  background: linear-gradient(to right, #db23d2, #f37a2a);
   padding: 20px;
   border-radius: 10px;
   max-width: 350px;
@@ -219,6 +227,7 @@ main .formula .form .description {
   font-size: 1rem;
   margin-top: 1rem;
   color: rgb(247, 246, 245);
+  font-family: "Titillium Web", sans-serif;
 }
 main .formula .form div {
   display: flex;
@@ -261,6 +270,8 @@ main .redescontact {
 main .redescontact div {
   display: flex;
   justify-content: space-around;
+  justify-content: center;
+  margin: 10px;
 }
 main .redescontact div p {
   font-family: "Titillium Web", sans-serif;
@@ -298,27 +309,34 @@ footer .derechos p {
     justify-content: center;
   }
   main .textomaps .maps iframe {
+    width: 1200px;
     height: 300px;
-    width: 650px;
   }
-  main .infonumeros {
+  main .info-news {
+    display: flex;
+    justify-content: space-around;
+  }
+  main .info-news .infonumeros {
     padding-top: 25px;
   }
-  main .infonumeros div {
+  main .info-news .infonumeros div {
     display: flex;
   }
-  main .infonumeros p {
+  main .info-news .infonumeros p {
     font-family: "Libre Franklin", sans-serif;
     justify-content: center;
     font-size: 25px;
   }
-  main .formula {
+  main .info-news .formula {
     display: flex;
     justify-content: center;
     padding-top: 30px;
   }
-  main .formula .form {
+  main .info-news .formula .form {
     max-width: 550px;
+  }
+  main .info-news .formula .form p {
+    font-size: 20px;
   }
   main .redescontact nav ul img {
     height: 55px;
@@ -330,12 +348,17 @@ main .fotoprincipal {
   justify-content: center;
 }
 main .fotoprincipal img {
-  height: 120px;
-  width: 300px;
+  height: 200px;
+  width: 340px;
 }
-main .container img {
-  height: 170px;
-  width: 190px;
+main .container .img1 {
+  height: 320px;
+  width: 230px;
+  padding-top: 30px;
+}
+main .container .img2 {
+  height: 250px;
+  width: 340px;
   padding-top: 30px;
 }
 main .container p {
@@ -368,6 +391,10 @@ main .container p {
     font-size: 23px;
   }
 }
+main .text_info {
+  justify-content: center;
+  margin: 13px;
+}
 main .text_info p {
   font-family: "Titillium Web", sans-serif;
 }
@@ -379,19 +406,31 @@ main .container img {
 @media screen and (min-width: 768px) {
   main .text_info {
     justify-content: center;
+    justify-content: center;
+    margin: 25px;
   }
   main .text_info p {
     font-family: "Titillium Web", sans-serif;
     font-size: 27px;
   }
 }
-main .container_tienda img {
-  height: 120px;
-  width: 120px;
+main .container_tienda .p-3 a {
+  text-decoration: none;
+}
+main .container_tienda .p-3 a img {
+  height: 110px;
+  width: 110px;
+}
+main .container_tienda .p-3 a p {
+  color: black;
+  font-family: "Titillium Web", sans-serif;
 }
 
 @media screen and (min-width: 768px) {
-  main .container_tienda p {
+  main .container_tienda .p-3 a {
+    text-decoration: none;
+  }
+  main .container_tienda .p-3 a p {
     font-family: "Titillium Web", sans-serif;
     font-size: 27px;
   }

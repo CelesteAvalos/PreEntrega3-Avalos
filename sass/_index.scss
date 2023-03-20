@@ -12,7 +12,7 @@
 
 }
 body{
-    background-color: rgb(238, 194, 241);
+    background-image: linear-gradient(to right, rgb(240, 212, 238), rgb(231, 68, 231));
     color: black;
 }
 header{
@@ -59,12 +59,16 @@ main{
 
     .presentacion-texto{
         margin-top: 20px;
-        p{
-            display: flex;
-            justify-content:center;
-            font-family: 'Roboto Condensed', sans-serif;
-
-            
+        
+        div{
+            justify-content: center;
+            margin: 20px;
+            p{
+                display: flex;
+                justify-content:center;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 20px;
+            }
         }
     }
 
@@ -74,7 +78,8 @@ main{
         width: 200px;
         }
         p{
-            font-family: 'Titillium Web', sans-serif;  
+            font-family: 'Titillium Web', sans-serif;
+            font-size: 20px;
         }
         }            
     }
@@ -155,11 +160,13 @@ footer{
         }
         .presentacion-texto{
             margin-top: 20px;
-            p{
-                display: flex;
-                justify-content:center;
-                font-family: 'Roboto Condensed', sans-serif;
-                font-size: 30px;
+            div{
+                p{
+                    display: flex;
+                    justify-content:center;
+                    font-family: 'Roboto Condensed', sans-serif;
+                    font-size: 30px;
+                }
             }
         }
         .container{

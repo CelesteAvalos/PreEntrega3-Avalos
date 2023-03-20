@@ -1,8 +1,17 @@
 main{
     .container_tienda{
-        img{
-            height: 120px;
-            width: 120px;
+        .p-3{
+            a{
+                text-decoration: none;
+                img{
+                    height: 110px;
+                    width: 110px;
+                }
+                p{
+                    color: black;
+                    font-family: 'Titillium Web', sans-serif;
+                }
+            }
         }
     }
         
@@ -10,11 +19,15 @@ main{
 @media screen and (min-width:768px){
     main{
         .container_tienda{
-            p{
-                font-family: 'Titillium Web', sans-serif;
-                font-size: 27px;
-
+            .p-3{
+                a{
+                    text-decoration: none;
+                    p{
+                        font-family: 'Titillium Web', sans-serif;
+                        font-size: 27px;
+                    }
+                }
             }
-            }
+        }
     }
 }

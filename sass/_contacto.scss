@@ -3,6 +3,8 @@ main{
         justify-content: center;
 
         .texto{
+            justify-content: center;
+            margin: 20px;
             font-family: 'Libre Franklin', sans-serif;
         }
         .maps{
@@ -14,17 +16,19 @@ main{
             }
         }
     }
-    .infonumeros{
-        div{
-            display: flex;
-            justify-content: center;
-        }
-        p{
-            font-family: 'Libre Franklin', sans-serif; 
-            justify-content: center; 
-        }
-    }
-    .formula{
+
+        .infonumeros{
+            div{
+                display: flex;
+                justify-content: center;
+            }
+            p{
+                font-family: 'Libre Franklin', sans-serif; 
+                justify-content: center; 
+            }
+        }    
+        
+        .formula{
         display: flex;
         justify-content: center;
         padding-top: 30px;
@@ -32,8 +36,8 @@ main{
             display: flex;
             flex-direction: column;
             background: #c1f380;
-            background: -webkit-linear-gradient(to right, #ec77e6, #f37a2a);
-            background: linear-gradient(to right,#ec77e6 , #f37a2a);
+            background: -webkit-linear-gradient(to right, #db23d2, #f37a2a);
+            background: linear-gradient(to right,#db23d2 , #f37a2a);
             padding: 20px;
             border-radius: 10px;
             max-width: 350px;
@@ -52,6 +56,7 @@ main{
             font-size: 1rem;
             margin-top: 1rem;
             color: rgb(247, 246, 245);
+            font-family: 'Titillium Web', sans-serif;
             }
             
             div {
@@ -94,7 +99,10 @@ main{
                 }
             }
         }
-    }
+        }
+        
+    
+    
     .redescontact{
         height: 80%;
         padding-top: 30px;
@@ -104,6 +112,8 @@ main{
         div{
             display: flex;
             justify-content: space-around;
+            justify-content: center;
+            margin: 10px;
 
             p{
                 font-family: 'Titillium Web', sans-serif; 
@@ -146,35 +156,39 @@ footer{
                 display: flex;
                 justify-content: center;
                 iframe{
+                    width: 1200px;
                     height: 300px;
-                    width: 650px;
                 }
             }
             
         }
-        .infonumeros{
-            padding-top: 25px;
-
-            div{
-                display: flex;
-                
-            }
-            p{
-                font-family: 'Libre Franklin', sans-serif; 
-                justify-content: center; 
-                font-size: 25px;
-            }
-        }
-        .formula{
+        .info-news{
             display: flex;
-            justify-content: center;
-            padding-top: 30px;
-
-            .form{
-                max-width: 550px;
+            justify-content: space-around;
+            .infonumeros{
+                padding-top: 25px;
+                div{
+                    display: flex;
+                    
+                }
+                p{
+                    font-family: 'Libre Franklin', sans-serif; 
+                    justify-content: center; 
+                    font-size: 25px;
+                }
             }
-            
-            
+            .formula{
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+    
+                .form{
+                    max-width: 550px;
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
         }
         .redescontact{
             nav{
@@ -186,6 +200,6 @@ footer{
                 }
             }
         }
+    
     }
 }
-
