@@ -18,13 +18,15 @@ main{
             width: 340px;
             padding-top: 30px;
         }
-        p{
-            font-family: 'Titillium Web', sans-serif;
-            b{
-                color: black;
-                background-color: rgb(125, 250, 93);
-                height: 30px;
-                padding: 0px 20px;
+        .col-sm-6{
+            p{
+                font-family: 'Titillium Web', sans-serif;
+                b{
+                    color: black;
+                    background-color: rgb(125, 250, 93);
+                    height: 30px;
+                    padding: 0px 20px;
+                }
             }
         }
     }

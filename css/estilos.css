@@ -382,10 +382,10 @@ main .container .img2 {
   width: 340px;
   padding-top: 30px;
 }
-main .container p {
+main .container .col-sm-6 p {
   font-family: "Titillium Web", sans-serif;
 }
-main .container p b {
+main .container .col-sm-6 p b {
   color: black;
   background-color: rgb(125, 250, 93);
   height: 30px;
@@ -422,12 +422,25 @@ main .text_info {
   justify-content: center;
   margin: 13px;
 }
-main .text_info p {
+main .text_info .info_serv p {
   font-family: "Titillium Web", sans-serif;
+}
+main .text_info .info_serv p b {
+  color: black;
+  background-color: rgb(125, 250, 93);
+  height: 30px;
+  padding: 0px 20px;
 }
 main .container img {
   height: 200px;
   width: 200px;
+  padding-bottom: 20px;
+}
+main .container p {
+  color: black;
+  background-color: rgb(125, 250, 93);
+  height: 30px;
+  padding: 0px 20px;
 }
 
 @media screen and (min-width: 768px) {

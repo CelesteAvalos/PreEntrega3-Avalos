@@ -2,17 +2,30 @@ main{
     .text_info{
         justify-content: center;
         margin: 13px;
-        p{
-            font-family: 'Titillium Web', sans-serif;
-            
+        .info_serv{
+            p{
+                font-family: 'Titillium Web', sans-serif;
+                b{
+                    color: black;
+                    background-color: rgb(125, 250, 93);
+                    height: 30px;
+                    padding: 0px 20px;
+                }
+            }
         }
-
     }
     
     .container{
         img{
             height: 200px;
             width: 200px;
+            padding-bottom: 20px;
+        }
+        p{
+            color: black;
+            background-color: rgb(125, 250, 93);
+            height: 30px;
+            padding: 0px 20px;  
         }
     }
 }
