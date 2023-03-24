@@ -7,23 +7,25 @@ main{
                 width: 340px;
             }
     }
-    .container{
+    .container_nos{
         .img1{
             height: 320px;
             width: 230px;
             padding-top: 30px;
+            padding-bottom: 30px;
         }
         .img2{
             height: 250px;
             width: 340px;
             padding-top: 30px;
+            padding-bottom: 30px;
         }
         .col-sm-6{
             p{
                 font-family: 'Titillium Web', sans-serif;
                 b{
                     color: black;
-                    background-color: rgb(125, 250, 93);
+                    background-color: rgb(255, 255, 255);
                     height: 30px;
                     padding: 0px 20px;
                 }
@@ -48,7 +50,6 @@ main{
                         align-items: center;
                         .col-sm-6{
                             justify-content: center;
-
                             .img1{
                                 height: 670px;
                                 width: 400px;

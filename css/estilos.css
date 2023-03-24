@@ -10,8 +10,8 @@
 }
 
 body {
-  background-image: linear-gradient(to right, rgb(240, 212, 238), rgb(231, 68, 231));
-  color: black;
+  background-image: linear-gradient(to bottom, rgb(248, 228, 202), rgb(243, 175, 96));
+  color: rgb(104, 104, 104);
 }
 
 header {
@@ -55,14 +55,13 @@ main .presentacion-texto div {
   margin: 20px;
 }
 main .presentacion-texto div p {
-  display: flex;
-  justify-content: center;
+  align-items: center;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
 }
 main .presentacion-texto div p b {
   color: black;
-  background-color: rgb(125, 250, 93);
+  background-color: rgb(255, 255, 255);
   height: 30px;
   padding: 0px 10px;
 }
@@ -76,7 +75,7 @@ main .container p {
 }
 main .container p b {
   color: black;
-  background-color: rgb(125, 250, 93);
+  background-color: rgb(255, 255, 255);
   height: 30px;
   padding: 0px 10px;
 }
@@ -214,7 +213,7 @@ main .infonumeros div {
   justify-content: center;
 }
 main .infonumeros .podes {
-  background-color: rgb(125, 250, 93);
+  background-color: rgb(255, 255, 255);
   height: 30px;
 }
 main .infonumeros p {
@@ -229,9 +228,9 @@ main .formula {
 main .formula .form {
   display: flex;
   flex-direction: column;
-  background: #c1f380;
-  background: -webkit-linear-gradient(to right, #db23d2, #f37a2a);
-  background: linear-gradient(to right, #db23d2, #f37a2a);
+  background: #ebf1e2;
+  background: -webkit-linear-gradient(to right, #fda5f9, #f1af83);
+  background: linear-gradient(to right, #fda5f9, #f1af83);
   padding: 20px;
   border-radius: 10px;
   max-width: 350px;
@@ -247,7 +246,7 @@ main .formula .form .description {
   line-height: 1.5rem;
   font-size: 1rem;
   margin-top: 1rem;
-  color: rgb(247, 246, 245);
+  color: rgb(48, 47, 46);
   font-family: "Titillium Web", sans-serif;
 }
 main .formula .form div {
@@ -372,22 +371,24 @@ main .fotoprincipal img {
   height: 200px;
   width: 340px;
 }
-main .container .img1 {
+main .container_nos .img1 {
   height: 320px;
   width: 230px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
-main .container .img2 {
+main .container_nos .img2 {
   height: 250px;
   width: 340px;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
-main .container .col-sm-6 p {
+main .container_nos .col-sm-6 p {
   font-family: "Titillium Web", sans-serif;
 }
-main .container .col-sm-6 p b {
+main .container_nos .col-sm-6 p b {
   color: black;
-  background-color: rgb(125, 250, 93);
+  background-color: rgb(255, 255, 255);
   height: 30px;
   padding: 0px 20px;
 }
@@ -419,74 +420,90 @@ main .container .col-sm-6 p b {
   }
 }
 main .text_info {
+  margin-top: 20px;
+}
+main .text_info .info_serv {
   justify-content: center;
-  margin: 13px;
+  margin: 20px;
 }
 main .text_info .info_serv p {
+  align-items: center;
   font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
 }
 main .text_info .info_serv p b {
   color: black;
-  background-color: rgb(125, 250, 93);
+  background-color: rgb(255, 255, 255);
   height: 30px;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
-main .container img {
+main .container_serv.text-center {
+  overflow: hidden;
+  justify-content: center;
+}
+main .container_serv.text-center .row.g-3 .p-3 img {
   height: 200px;
   width: 200px;
+  margin: 5px;
   padding-bottom: 20px;
 }
-main .container p {
+main .container_serv.text-center .row.g-3 .p-3 p {
   color: black;
-  background-color: rgb(125, 250, 93);
-  height: 30px;
-  padding: 0px 20px;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 5px;
 }
 
 @media screen and (min-width: 768px) {
   main .text_info {
-    justify-content: center;
-    justify-content: center;
-    margin: 25px;
+    margin-top: 20px;
   }
-  main .text_info p {
+  main .text_info .info_serv p {
+    justify-content: center;
     font-family: "Titillium Web", sans-serif;
-    font-size: 27px;
+    font-size: 30px;
+  }
+  main .text_info .info_serv p b {
+    height: 40px;
+    width: 140px;
   }
 }
-main .container_tienda .p-3 a {
+main .container_tienda.text-center {
+  overflow: hidden;
+}
+main .container_tienda.text-center .p-3 a {
   text-decoration: none;
 }
-main .container_tienda .p-3 a img {
+main .container_tienda.text-center .p-3 a img {
   height: 110px;
   width: 110px;
   padding-bottom: 10px;
 }
-main .container_tienda .p-3 a #bottone1 {
+main .container_tienda.text-center .p-3 a #bottone1 {
   padding-left: 33px;
   padding-right: 33px;
   padding-bottom: 16px;
   padding-top: 16px;
   border-radius: 9px;
-  background: #f07a43;
+  background: #f19f5b;
   border: none;
   font-family: inherit;
   text-align: center;
   cursor: pointer;
   transition: 0.4s;
 }
-main .container_tienda .p-3 a #bottone1 strong {
+main .container_tienda.text-center .p-3 a #bottone1 strong {
   font-family: "Titillium Web", sans-serif;
 }
-main .container_tienda .p-3 a #bottone1:hover {
+main .container_tienda.text-center .p-3 a #bottone1:hover {
   box-shadow: 7px 5px 56px -14px #000000;
 }
-main .container_tienda .p-3 a #bottone1:active {
+main .container_tienda.text-center .p-3 a #bottone1:active {
   transform: scale(0.97);
   box-shadow: 7px 5px 56px -10px #f3ca7d;
 }
-main .container_tienda .p-3 a p {
-  color: black;
+main .container_tienda.text-center .p-3 a strong {
+  color: rgb(255, 255, 255);
   font-family: "Titillium Web", sans-serif;
   font-size: 16px;
 }

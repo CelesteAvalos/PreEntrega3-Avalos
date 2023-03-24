@@ -24,7 +24,7 @@ main{
                 justify-content: center;
             }
             .podes{
-                background-color: rgb(125, 250, 93);
+                background-color: rgb(255, 255, 255);
                 height: 30px;
                 
             }
@@ -41,9 +41,9 @@ main{
         .form {
             display: flex;
             flex-direction: column;
-            background: #c1f380;
-            background: -webkit-linear-gradient(to right, #db23d2, #f37a2a);
-            background: linear-gradient(to right,#db23d2 , #f37a2a);
+            background: #ebf1e2;
+            background: -webkit-linear-gradient(to right, #fda5f9, #f1af83);
+            background: linear-gradient(to right,#fda5f9 , #f1af83);
             padding: 20px;
             border-radius: 10px;
             max-width: 350px;
@@ -61,7 +61,7 @@ main{
             line-height: 1.5rem;
             font-size: 1rem;
             margin-top: 1rem;
-            color: rgb(247, 246, 245);
+            color: rgb(48, 47, 46);
             font-family: 'Titillium Web', sans-serif;
             }
             

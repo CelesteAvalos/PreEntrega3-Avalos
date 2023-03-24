@@ -12,8 +12,8 @@
 
 }
 body{
-    background-image: linear-gradient(to right, rgb(240, 212, 238), rgb(231, 68, 231));
-    color: black;
+    background-image: linear-gradient(to bottom, rgb(248, 228, 202), rgb(243, 175, 96));
+    color: rgb(104, 104, 104);
 }
 header{
     grid-area: header;
@@ -60,18 +60,16 @@ main{
 
     .presentacion-texto{
         margin-top: 20px;
-        
         div{
             justify-content: center;
             margin: 20px;
             p{
-                display: flex;
-                justify-content:center;
+                align-items:center;
                 font-family: 'Roboto Condensed', sans-serif;
                 font-size: 20px;
                 b{
                     color: black;
-                    background-color: rgb(125, 250, 93);
+                    background-color: rgb(255, 255, 255);
                     height: 30px;
                     padding: 0px 10px ;
                 }
@@ -89,13 +87,14 @@ main{
             font-size: 20px;
             b{
                 color: black;
-                background-color: rgb(125, 250, 93);
+                background-color: rgb(255, 255, 255);
                 height: 30px;
                 padding: 0px 10px ;
             }
         }
-        }            
     }
+}            
+
     .video{
         display: flex;
         justify-content: center;
@@ -175,10 +174,8 @@ footer{
         }
         .presentacion-texto{
             margin-top: 20px;
-            div{
-                
+            div{    
                 p{
-                    
                     display: flex;
                     justify-content:center;
                     font-family: 'Roboto Condensed', sans-serif;
@@ -186,6 +183,7 @@ footer{
                     b{
                         height: 40px;
                         width: 140px;
+                        
                     }
                 }
             }
@@ -201,7 +199,8 @@ footer{
                     
                     justify-content: center;
                     p{
-                        font-size: 30px;                        
+                        font-size: 30px;
+                                                
                     }
                 }
             }
